@@ -448,6 +448,7 @@ h1, h2, h3 {
 	content: '';
 }
 
+.slide section header.bottomed,
 .bottomed {
 	position: absolute;
 	left: 0;
@@ -461,6 +462,7 @@ h1, h2, h3 {
 
 	padding: 1em 0 0 2em;
 	border-top: solid 1px #666;
+	color: white;
 }
 
 .attribution {
