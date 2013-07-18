@@ -487,6 +487,13 @@ h1, h2, h3 {
 	opacity: 0.6;
 }
 
+
+.col-3rd {
+	float: left;
+	margin-right: 10px;
+	width: 39%;
+}
+
 /* Medium sized viewports */
 @media screen and (max-width:1060px) {
 
