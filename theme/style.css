@@ -240,11 +240,15 @@ h1, h2, h3 {
 .slide.cover a,
 .slide.cover a:visited {
 	color: #29f;
+	position: relative;
+	z-index: 10;
 }
 
 .slide.cover section {
 	background: #000;
 	overflow: hidden;
+	position: relative;
+	z-index: 10;
 }
 
 
@@ -259,7 +263,7 @@ h1, h2, h3 {
 	position: absolute;
 	top: 0;
 	left: 50%;
-	z-index: -1;
+	z-index: 1;
 	height: 100%;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
@@ -463,6 +467,7 @@ h1, h2, h3 {
 	padding: 1em 0 0 2em;
 	border-top: solid 1px #666;
 	color: white;
+	z-index: 20;
 }
 
 .slide section header.bottomed,
@@ -483,7 +488,7 @@ h1, h2, h3 {
 }
 
 /* Medium sized viewports */
-@media all and (max-width:1060px) {
+@media screen and (max-width:1060px) {
 
 	.meta {
 		padding-left: 20px;
@@ -509,7 +514,7 @@ h1, h2, h3 {
 }
 
 /* Small viewports */
-@media all and (max-width: 920px) {
+@media screen and (max-width: 920px) {
 
 	.list .caption {
 		font-size: .9em;
@@ -523,7 +528,7 @@ h1, h2, h3 {
 
 
 /* Even smaller viewports */
-@media all and (max-width: 625px) {
+@media screen and (max-width: 625px) {
 
 	.list .caption {
 		font-size: .8em;

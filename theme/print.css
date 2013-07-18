@@ -6,8 +6,13 @@
 
 @page {
 	margin:0;
+	padding:0;
 	size:1024px 640px;
 	}
+
+nav.meta {
+	display: none;
+}
 
 /* List
 ---------------------------------------- */
@@ -21,6 +26,10 @@
 .list .caption {
 	display:none;
 	}
+.list .slides {
+	width: 1024px;
+	padding: 0;
+}
 
 /* Slide */
 .list .slide {
