@@ -394,6 +394,21 @@
 
   </section>
 	
-	<script src="../../lib/shower/scripts/script.js"></script>
+	<script src="../../lib/shower/scripts/shower.js"></script>
+  <script type="text/javascript">
+  function receiveMessage(event)
+    {
+      if (event.data == "next") {
+        if (!window.shower.next()){
+          window.shower.first();
+        }
+      }
+      if (event.data == "prev") {
+        window.shower.prev();
+        }
+    }
+  window.addEventListener("message", receiveMessage, false);
+
+  </script>
 </body>
 </html>
