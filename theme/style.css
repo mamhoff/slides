@@ -14,31 +14,31 @@ body {
 a,
 a:link,
 a:visited {
-  color: #1F8AB6;
-  text-decoration: none;
+	color: #1F8AB6;
+	text-decoration: none;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #2fb0d5;
-  text-decoration: underline;
+	color: #2fb0d5;
+	text-decoration: underline;
 }
 
 h1, h2, h3 {
 	font-weight: bold;
-} 
+}
 
 
 /* Meta navigation
 ---------------------------------------- */
 
 .meta {
-  height: 24px;
-  padding: 8px 0 4px 0;
-  font-size: 12px;
-  background: #085987;
-  color: #FFF;
+	height: 32px;
+	padding: 8px 0 4px 0;
+	font-size: 12px;
+	background: #222;
+	color: #FFF;
 	padding: ;
 }
 
@@ -50,22 +50,42 @@ h1, h2, h3 {
 .meta a,
 .meta a:link,
 .meta a:visited {
-  display: block;
-  width: 192px;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  background: url("ots_logo_meta.png") no-repeat;
-  color: #FFF;
-  opacity:0.8;
 }
 
 .meta a:hover,
 .meta a:active,
 .meta a:focus {
-  opacity:1;
+	opacity:1;
 }
 
+.site-logo {
+    float: left;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 #000;
+}
+
+
+.site-claim {
+    float: left;
+    color: #555;
+    line-height: 32px;
+    margin-left: 20px;
+}
+
+.hacker,
+.site-logo .hacker, .marker {
+    color: #20A260;
+}
+
+.ship,
+.site-logo .ship {
+    color: white;
+}
 
 /* Slide
 ---------------------------------------- */
@@ -94,10 +114,10 @@ h1, h2, h3 {
 /* Header */
 .slide header {
 	margin: 0 0 58px;
-	color: #085987;
+	color: #20a260;
 	font-size: 1.5em;
 	line-height: 1.13;
-	text-rendering: optimizeLegibility;	
+	text-rendering: optimizeLegibility;
 }
 
 /* Elements */
@@ -166,7 +186,7 @@ h1, h2, h3 {
 .slide ul ol {
 	margin: 0 0 0 38px;
 }
-	
+
 .slide ol > li:before,
 .slide ul > li:before {
 	position: absolute;
@@ -290,7 +310,7 @@ h1, h2, h3 {
 
 
 /* Shout */
-.slide.invert header, 
+.slide.invert header,
 .slide.shout header,
 .slide.shout-louder header {
 	color: #fff;
@@ -303,10 +323,10 @@ h1, h2, h3 {
 	text-align: center;
 }
 
-.slide.invert header.with-bg, 
+.slide.invert header.with-bg,
 .slide.shout header.with-bg,
 .slide.shout-louder header.with-bg {
-	background-color: #286d99;
+	background-color: #20a260;
 	background-color: rgba(0,0,0,0.5);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
 	/* For IE 8*/
@@ -342,11 +362,11 @@ h1, h2, h3 {
 }
 
 .slide.shout section {
-	background: #286d99;
+	background: #20a260;
 }
 
 .slide.invert section {
-	background: #286d99;
+	background: #20a260;
 	color: #fff;
 }
 
@@ -371,7 +391,7 @@ h1, h2, h3 {
 ---------------------------------------- */
 
 .list .slides {
-	width: 1060px;	
+	width: 1060px;
 	margin: 0 auto;
 	padding-bottom: 5em;
 	overflow: hidden;
@@ -380,15 +400,15 @@ h1, h2, h3 {
 /* Caption */
 .list .caption {
 	text-align: center;
-	color: #085987;
-	line-height: 1.13;	
+	color: #222;
+	line-height: 1.13;
 }
 
 .list .caption h1 {
 	font-size: 2em;
 	line-height: 1em;
 	margin: 1.5em 0 .2em 0;
-	font-weight: bold; 
+	font-weight: bold;
 }
 
 /* Slide */
@@ -421,12 +441,12 @@ h1, h2, h3 {
 
 .list .slide > div:hover {
 	cursor: pointer;
-	box-shadow: 0 0 40px #4C4E53;	
+	box-shadow: 0 0 40px #4C4E53;
 }
 
 .list .slide:target > div {
-	box-shadow: 
-		0 0 0 10px 
+	box-shadow:
+		0 0 0 10px
 		rgba(60, 61, 64, 0.6), 0 0 50px #3C3D40;
 }
 
@@ -458,7 +478,7 @@ h1, h2, h3 {
 	position: absolute;
 	left: 0;
 	right: 0;
-	background-color: #286d99;
+	background-color: #20a260;
 	background-color: rgba(0,0,0,0.5);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
 	/* For IE 8*/
@@ -526,7 +546,7 @@ h1, h2, h3 {
 	.list .caption {
 		font-size: .9em;
 	}
-	
+
 	.list .slides {
 		width: 625px;
 	}
